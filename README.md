@@ -16,7 +16,6 @@ composer require  reactphp-request-limiter -vvv
 
     // 10 request per second
     $limiter = new Limiter(10, 1000);
-    $start = microtime(true);
 
     $limiter->on('data', function ($key, $data) {
        echo $key . ' is completed ' . PHP_EOL;
