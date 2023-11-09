@@ -1,0 +1,16 @@
+{
+    "name": "wpjscc/reactphp-request-limiter",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wpjscc\\RequestLimiter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "require": {}
+}
