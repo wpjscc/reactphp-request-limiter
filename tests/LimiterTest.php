@@ -7,7 +7,7 @@ final class LimiterTest extends TestCase
 {
     public function testLimiter()
     {
-        $limiter = new Limiter(10, 1000);
+        $limiter = new Limiter(10, 1000, false);
         $start = microtime(true);
 
         $deferred = new \React\Promise\Deferred();
