@@ -3,7 +3,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Wpjscc\\RequestLimiter\\": "src/"
+            "Wpjscc\\Request\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,11 @@
             "email": "wpjscc@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "wpjscc/reactphp-limiter": "^1.0",
+        "evenement/evenement": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
 }
